@@ -1,36 +1,59 @@
-@import url(https://fonts.googleapis.com/css?family=Raleway);
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gravitas+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nothing+You+Could+Do&display=swap');
+/**font-family: 'Gravitas One', cursive;*/
+/**font-family: 'Nothing You Could Do', cursive;*/
 
 body{
     background: rgb(177,154,59);
-    background: linear-gradient(132deg, rgba(177,154,59,1) 0%, rgba(116,0,117,1) 46%, rgba(0,228,255,1) 100%);
+    background: linear-gradient(132deg, rgb(26, 29, 55) 0%, rgba(116,0,117,1) 46%, rgba(0,228,255,1) 100%);
     font-size: 16px;font-family: 'Raleway', sans-serif;
     color:#46FFF1;
 }
 
 h1{
-    font-size: 2rem;
+    font-size: 2.5rem;
     font-weight: 600;
 }
 
 h2{
-    font-size: 1.5rem;
+    font-size: 2.5rem;
     font-weight: 600;
 }
 
 h3{
-    font-size: 1.2rem;
+    font-size: 2rem;
     font-weight: 600;
 }
 
 p{
     font-size: 1rem;
-    font-weight: 600;
+    font-weight: 300;
+}
+.cursive{
+    font-family: 'Nothing You Could Do', cursive;
+}
+
+img.img-fluid.icone {
+    width: 50px;
+    height: auto;
+}
+
+.introImage{
+    width: 500px;
+    height: auto
+}
+
+section{
+    margin-top: 6%;
+    margin-bottom: 6%;
 }
 .card {
-    background: rgb(45, 45, 45);
-    border-radius: 5px;
+    background: transparent;
+    border: solid 4px #46FFF1;
+    border-radius: 25px;
     display: inline-block;
-    height: 300px;
+    height: auto;
     margin: 1rem;
     position: relative;
     width: 300px;
@@ -44,11 +67,22 @@ p{
   .card-1:hover {
     box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
   }
-  
+  #hardskills p{
+    color:#1a1a1a;
+    margin-bottom: 0.5rem;
+    color:#46FFF1
+  }
+  #hardskills h3{
+    color:#1a1a1a;
+    margin-bottom: 0.8rem;
+    color:#46FFF1;
+}
+
   
 
+
     .container{
-        margin-top: 200px
+        margin-top: 5%;
     }
     .title{
         color: #1a1a1a;
@@ -81,7 +115,7 @@ p{
     }.content-image{
         width: 100%
     }
-    img{
+    #portfolio img{
         box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.1);
         border-radius: 5px;
     }
